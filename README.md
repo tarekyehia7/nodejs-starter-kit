@@ -1,6 +1,6 @@
 # nodejs-starter-kit
 
-This post is made to help most of the developers to get started with node.js.
+This project is made to help most of the developers to get started with node.js.
 
 The first thing we would do is to download node.js from here
 
