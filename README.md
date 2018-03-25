@@ -23,7 +23,7 @@ app.js file is the main file that serves the whole application, So we will creat
 
 As the above code We created our server and now I will explain things in details
 
-    1. We have created a variable called express which require the express template engine from our node_modules, This template engine will help us to talk to client side html
+    1. We have created a variable called express which require the express module
     2. We have assigned app variable to the express module.
     3. Node should work on a specific port so we will need to tell him what port to run the server on.
     4. app.get will create a new request for url / to view the res.send
@@ -31,17 +31,16 @@ As the above code We created our server and now I will explain things in details
 
 So, how do we actually run the server and what is node_modules
 
-First we will have to go back to node.js command prompt, this node js cmd will allow us to download every module we would want, Check below how we will download express:
+First we will have to go back to node.js command prompt, this node js cmd will allow us to download every module we would want, Check below how we will download:
 
     open cmd.
-    type: cd /.. copy and paste your path to the application
-    type: npm install express ( Check this URL ).
+    type: npm install.
 
 After that your will find a new folder created named node_modules, again what is node_modules, It is folder that store libraries you will need to use for your application.
 
-After installing express, you are good to go, run your sever with node.js cmd:
+After installing, you are good to go, run your sever with node.js cmd:
 
-		Type: node app.js
+		Type: npm start
 
 You will see the following message
 
@@ -52,7 +51,7 @@ You can open your browser now and navigate to http://localhost:3000/
 This will print Hello World to your browser.
 Using html files and css
 
-In this example we will use express template engine and jade instead of html.
+In this example we will use express and jade.
 
 First thing to do is to add two new folders one for the views and the other for the css and will be named public folder.
 
@@ -66,13 +65,6 @@ So, we will add these few lines of code
 1. express.static tells express to load files on this folder as static files ( this line is extremely important, If you didn’t do it, all css files will not be read )
 2. setting the views to express in views folder
 3. setting view engine as jade, we will use it instead of html
-
-Note: If you have html file and you want to convert it to jade click here
-
-We have to download jade and path modules so just open node cmd and type
-
-		npm install jade
-		npm install path
 
 Now create folder named assets and inside it create another one for css and create file named main.css and write down the following:
 

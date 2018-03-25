@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-starter-kit",
+  "version": "1.0.0",
+  "description": "nodejs starter kit for learning only",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarekyehia7/nodejs-starter-kit.git"
+  },
+  "author": "Tarek Ibrahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarekyehia7/nodejs-starter-kit/issues"
+  },
+  "homepage": "https://github.com/tarekyehia7/nodejs-starter-kit#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
